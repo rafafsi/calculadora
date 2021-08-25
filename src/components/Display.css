@@ -1,0 +1,11 @@
+.display {
+    grid-column: span 4; /* o span diz quantas linhas o display vai ocupar */
+    background-color: #0004;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    padding: 20px;
+    font-size: 2.0em;
+    overflow: hidden;
+}

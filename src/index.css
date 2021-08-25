@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+} /* importando a fonte q copiei pra dentro da pasta fonts com font-face */
+
+* { 
+  font-family: 'RobotoMono', monospace;
+}
+
+/* o * engloba todos os itens do projeto  */
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(40, 48, 72), rgb(133, 147, 152));
+}
